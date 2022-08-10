@@ -52,7 +52,7 @@
     z-index: 10;
 }
 .navbar.active{
-    background-color: rgba(256,256,256,0.5);
+    background-color: rgba(0,0,0,0.6);
 }
 .logo {
     color: #fff;
@@ -309,23 +309,25 @@
         display: none;
     }
     .data{
-        margin-top: 10px !important;
+        margin-top: 35px !important;
     }
     .boxes{
         display: flex;
         align-items: center;
         flex-direction: column;
-        gap: 10px;
+        gap: 38px;
     }
     .box{
         width: 100%;
         position: unset;
     }
+
     .home-content{
         margin-top: 100px;
     }
+
     .container{
-        height: 100vh;
+        height: 100%;
     }
 }
 
